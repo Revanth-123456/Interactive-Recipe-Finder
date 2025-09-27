@@ -1,6 +1,9 @@
 # INTERACTIVE_RECIEPE_FINDER
  Users often don't know what to cook with available ingredients. This app lets them enter ingredients and suggests recipes accordingly. It  reduces food waste and cooking time with smart suggestions.
 
+ # Live Deployement Link Of Interactive Recipe Finder
+ [Interactive Recipe Finder](https://interactiverecipefinder.netlify.app/) 
+
  # 🍳 Interactive Recipe Finder
 
 A beautiful, responsive web application that helps users find recipes based on their available ingredients. Built with HTML, CSS, and JavaScript, integrated with the Spoonacular API for real recipe data.
@@ -199,4 +202,5 @@ If you encounter any issues:
 ## 🎉 Enjoy Cooking!
 
 Transform your available ingredients into delicious meals with this interactive recipe finder. Happy cooking! 👨‍🍳👩‍🍳
+
 
