@@ -1,9 +1,9 @@
 # INTERACTIVE_RECIEPE_FINDER
- Users often don't know what to cook with available ingredients. This  app lets them enter ingredients and suggests recipes accordingly. It  reduces food waste and cooking time with smart suggestions.
+ Users often don't know what to cook with available ingredients. This app lets them enter ingredients and suggests recipes accordingly. It  reduces food waste and cooking time with smart suggestions.
 
  # 🍳 Interactive Recipe Finder
 
-A beautiful, responsive web application that helps users find recipes based on their available ingredients. Built with vanilla HTML, CSS, and JavaScript, integrated with the Spoonacular API for real recipe data.
+A beautiful, responsive web application that helps users find recipes based on their available ingredients. Built with HTML, CSS, and JavaScript, integrated with the Spoonacular API for real recipe data.
 
 ![Recipe Finder Demo](https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=400&fit=crop&crop=center)
 
@@ -37,11 +37,10 @@ A beautiful, responsive web application that helps users find recipes based on t
 ## 📁 File Structure
 
 ```
-recipe-finder/
+Interactive-Recipe-Finder/
 ├── index.html          # Main HTML structure
 ├── styles.css          # All styling and animations
 ├── script.js          # Main JavaScript functionality
-├── config.js          # API configuration helper
 └── README.md          # This file
 ```
 
@@ -110,34 +109,6 @@ Deploy to any static hosting service:
 - Network error handling
 - Graceful fallback to demo mode
 
-## 🛠️ Customization
-
-### Modifying Colors
-Edit the CSS variables in `styles.css`:
-```css
-:root {
-    --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --accent-color: #667eea;
-    --text-color: #2c3e50;
-}
-```
-
-### Adding More Demo Recipes
-Add recipes to the `demoRecipeDetails` object in `script.js`:
-```javascript
-const demoRecipeDetails = {
-    5: {
-        title: "Your New Recipe",
-        // ... recipe data
-    }
-};
-```
-
-### Changing Search Parameters
-Modify the API call parameters in `findRecipes()`:
-```javascript
-const url = `${BASE_URL}/recipes/findByIngredients?ingredients=${ingredientsString}&number=20&ranking=2&apiKey=${API_KEY}`;
-```
 
 ## 🌟 Advanced Features
 
@@ -228,3 +199,4 @@ If you encounter any issues:
 ## 🎉 Enjoy Cooking!
 
 Transform your available ingredients into delicious meals with this interactive recipe finder. Happy cooking! 👨‍🍳👩‍🍳
+
